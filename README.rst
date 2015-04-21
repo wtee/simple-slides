@@ -57,6 +57,7 @@ Create an empty div in the body of your document with the id "slider-container".
 Initialize SimpleSlides and voila.
 
 If you're using Tabletop, your Google spreadsheet will need to have these fields:
+
 * title
 * text
 * img
