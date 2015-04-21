@@ -33,20 +33,21 @@ data for the slides while the second argument is the height you want
 the slideshow container to be in pixels.
 
 Here's what a basic page would look like::
-  <html>
-    <head>
-      <title>A simple slideshow</title>
-      <link href="css/simple-slides.js"></script>
-      <script src="js/tabletop.js"></script>
-      <script src="js/simple-slides.js"></script>
-    </head>
-    <body>
-      <div id="slider-container"></div>
-      <script>
-        SimpleSlides.initTabletop('https://docs.google.com/spreadsheets/d/1llicGfdX7YVNxmPsdu3QbR04pBfPxk1DIX9irC31Iaw/pubhtml', 400);
-      </script>
-    </body>
-  </html>
+
+ <html>
+   <head>
+     <title>A simple slideshow</title>
+     <link href="css/simple-slides.js"></script>
+     <script src="js/tabletop.js"></script>
+     <script src="js/simple-slides.js"></script>
+   </head>
+   <body>
+     <div id="slider-container"></div>
+     <script>
+       SimpleSlides.initTabletop('https://docs.google.com/spreadsheets/d/1llicGfdX7YVNxmPsdu3QbR04pBfPxk1DIX9irC31Iaw/pubhtml', 400);
+     </script>
+   </body>
+ </html>
 
 Here's `a demo with Tabletop`_ and a `demo without it`_.
 
@@ -66,6 +67,7 @@ Here's `an example.`_
 
 If you're not using Tabletop, you'll need to create an array full of objects
 with the attribute names that match the spreadsheet fields above. For example::
+
   var myarray = [ {title: 'My first slide',
                    text: 'This text fills out the body of the slide',
                    img: 'http://img.url',
