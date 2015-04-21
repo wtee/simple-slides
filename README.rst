@@ -63,7 +63,7 @@ If you're using Tabletop, your Google spreadsheet will need to have these fields
 * img_caption
 * link
 
-Here's `an example.`_
+Here's `an example`_.
 
 If you're not using Tabletop, you'll need to create an array full of objects
 with the attribute names that match the spreadsheet fields above. For example::
